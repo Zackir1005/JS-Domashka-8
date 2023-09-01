@@ -82,7 +82,7 @@ function moveBug() {
         }
         //document.getElementById(`tmp` + `_` + `${i}`).style = ` left: ${randomWidthNumber}px; top: ${randomHeightNumber}px`;
     }
-    , 2000);
+    , 500);
     }
 }
 
