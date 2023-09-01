@@ -54,10 +54,10 @@ function createBug() {
     let randomHeightNumber = getRandom(0, 400);
 
     let img = document.createElement('img');
-    img.className = 'bugg';
+    img.className = 'bug';
     img.id = `tmp` + `_` + `${bugCounter}`;
     img.style = ` left: ${randomWidthNumber}px; top: ${randomHeightNumber}px`;
-    img.src = 'image/bug.png';
+    img.src = 'image/zhuk.jpg';
     img.alt = 'bugs';
 
     document.getElementById('bugs-area').appendChild(img);
