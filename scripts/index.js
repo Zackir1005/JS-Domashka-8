@@ -1,7 +1,7 @@
 window.onload = refresh;
 
 var bugCounter = 1;
-var bugLimit = 20;
+var bugLimit = 10;
 
 const container = document.querySelector("#bugs-area");
 alert(container);
